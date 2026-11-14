@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CCF CSP 冬季认证原题与同源刷题题单（洛谷 & 力扣）</title>
+  <title>CCF CSP 认证原题与洛谷刷题题单</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,15 +32,15 @@
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-200 text-xs font-medium mb-2">
-            <span>❄️ 冬季（12月）CCF CSP 认证备考专版</span>
+            <span>📘 CCF CSP 认证备考专版</span>
             <span>·</span>
             <span>按难度从低到高排序</span>
           </div>
           <h1 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">
-            CCF CSP 原题与同源刷题题单（洛谷 &amp; LeetCode）
+            CCF CSP 原题与洛谷刷题题单
           </h1>
           <p class="mt-1.5 text-sm text-slate-300 max-w-3xl">
-            涵盖历年冬季（12月）及高频 <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="underline text-indigo-300 hover:text-white">CCF CSP 计算机软件能力认证</a> 真题、洛谷（Luogu）官方 CSP 真题题库与力扣（LeetCode）同源算法训练题。支持难度阶梯筛选、考点检索与本地刷题进度打卡。
+            涵盖历年高频 <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="underline text-indigo-300 hover:text-white">CCF CSP 计算机软件能力认证</a> 真题与洛谷（Luogu）CSP 真题题库，并为每道题配套同类型的洛谷练习题。支持难度阶梯筛选、考点检索与本地刷题进度打卡。
           </p>
         </div>
 
@@ -70,18 +70,12 @@
             <span>🛠️ C++ 语法与 STL 速查复健</span>
           </button>
           <button id="tab-btn-strategy" type="button" class="px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">
-            🧭 冬季认证考情与洛谷/力扣刷题指南
-          </button>
-          <button id="tab-btn-github" type="button" class="px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all flex items-center gap-1.5">
-            <span>🚀 快速开始与 GitHub 部署指南</span>
+            🧭 认证考情与洛谷刷题指南
           </button>
         </div>
         <div class="flex items-center gap-2">
           <button id="btn-quick-next" type="button" class="px-3.5 py-2 rounded-lg text-xs font-semibold bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-sm transition-all flex items-center gap-1.5">
             <span>⚡ 快速开始：下一道待刷题</span>
-          </button>
-          <button id="btn-open-github-modal" type="button" class="px-3.5 py-2 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-300 transition-all flex items-center gap-1.5">
-            <span>📦 上传 GitHub 教程</span>
           </button>
         </div>
       </div>
@@ -95,12 +89,12 @@
     <div class="mb-6 bg-indigo-50/90 border border-indigo-200 rounded-xl p-4 text-sm text-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
       <div class="space-y-1">
         <div class="font-semibold text-indigo-950 flex items-center gap-1.5">
-          <span>💡 冬季考试（12月场）重要说明：为什么要在洛谷与力扣联合刷题？</span>
+          <span>💡 备考说明：为什么统一用洛谷题单刷题？</span>
         </div>
         <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-          <strong>1. 考试区分：</strong>冬季（每年12月）举办的是面向高校与开发者的 <strong><a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">CCF CSP 计算机软件能力认证</a></strong>（5道题 / 4小时 / 满分500分，常用于保研机试、考研复试及 <a href="https://www.ccf.org.cn/Focus/2024-11-28/835205.shtml" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">CCSP 竞赛选拔</a>），而 CSP-J/S 在每年9-10月举行。
+          <strong>1. 考试定位：</strong>CCF CSP 计算机软件能力认证面向高校学生与开发者（5道题 / 4小时 / 满分500分），成绩常用于保研机试、考研复试及 <a href="https://www.ccf.org.cn/Focus/2024-11-28/835205.shtml" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">CCSP 竞赛选拔</a>。
           <br />
-          <strong>2. 题库分布：</strong>CCF CSP 专业认证历年真题版权归属 <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">CCF CSP 官方模拟考试系统</a>（报名后可用兑换码模拟）；<strong><a href="https://www.luogu.com.cn/problem/list?tag=342" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">洛谷（Luogu）</a></strong>收录了全部 CSP-J/S 官方真题与相同考点的经典原题，而 <strong><a href="https://leetcode.cn/problemset/" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">力扣（LeetCode）</a></strong>收录了与历年 CCF CSP T1-T5 完全同源的算法与大模拟原题。本页面将三者按<strong>难度从低到高（Lv.1 → Lv.5）</strong>进行了完整映射与整合。
+          <strong>2. 题库选择：</strong>CCF CSP 真题版权归属 <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">CCF CSP 官方模拟考试系统</a>（报名后可用兑换码模拟）；<strong><a href="https://www.luogu.com.cn/problem/list?tag=342" target="_blank" rel="noopener noreferrer" class="text-indigo-700 underline hover:text-indigo-900">洛谷（Luogu）</a></strong>收录了全部 CSP-J/S 官方真题与考点一致的经典原题，因此本页面统一以洛谷题目作为练习入口，并为每道题额外配套一道同类型洛谷练习，按<strong>难度从低到高（Lv.1 → Lv.5）</strong>完成整合。
         </p>
       </div>
     </div>
@@ -110,22 +104,11 @@
 
       <!-- Filter & Control Bar -->
       <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 space-y-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <!-- Search Input -->
           <div class="lg:col-span-2">
             <label for="search-input" class="block text-xs font-medium text-slate-500 mb-1">搜索题目编号 / 名称 / 算法考点</label>
             <input id="search-input" type="text" placeholder="例如：202312、前缀和、大模拟、线段树、P11232..." class="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
-
-          <!-- Platform Filter -->
-          <div>
-            <label for="platform-filter" class="block text-xs font-medium text-slate-500 mb-1">刷题平台筛选</label>
-            <select id="platform-filter" class="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500">
-              <option value="ALL">全部平台 (洛谷 + 力扣 + 冬季真题)</option>
-              <option value="LUOGU">洛谷 (Luogu) 原题</option>
-              <option value="LEETCODE">力扣 (LeetCode) 原题</option>
-              <option value="WINTER">历年冬季 (12月) CCF CSP 认证场</option>
-            </select>
           </div>
 
           <!-- Difficulty Level Filter -->
@@ -149,7 +132,6 @@
               <option value="DIFF_ASC">难度从低到高 (Lv.1 → Lv.5 默认)</option>
               <option value="DIFF_DESC">难度从高到低 (Lv.5 → Lv.1)</option>
               <option value="UNSOLVED_FIRST">未完成优先 (按难度递增)</option>
-              <option value="WINTER_FIRST">冬季(12月)真题优先 (按难度递增)</option>
             </select>
           </div>
         </div>
@@ -192,7 +174,7 @@
           <div class="text-xs font-semibold uppercase tracking-wider text-amber-700 bg-amber-50 inline-block px-2.5 py-1 rounded-md mb-2">第二阶段 · 突破 300 分分水岭</div>
           <h2 class="text-lg font-bold text-slate-900">死磕 T3 工程大模拟与文本解析</h2>
           <p class="mt-2 text-sm text-slate-600 leading-relaxed">
-            CCF CSP 的 T3 是能否上 300 分的分水岭（如冬季场 <code>202112-3 登机牌条码</code>、<code>202012-3 带配额的文件系统</code>、<code>201912-3 化学方程式</code>）。核心不考冷门算法，而是考察 <code>std::map</code>、字符串分割、状态机与模块化函数设计。
+            CCF CSP 的 T3 是能否上 300 分的分水岭（如 <code>202112-3 登机牌条码</code>、<code>202012-3 带配额的文件系统</code>、<code>201912-3 化学方程式</code>）。核心不考冷门算法，而是考察 <code>std::map</code>、字符串分割、状态机与模块化函数设计。
           </p>
         </div>
 
@@ -205,77 +187,6 @@
         </div>
       </div>
 
-      <!-- Winter Exam Specific History Table -->
-      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-        <div class="px-6 py-4 border-b border-slate-200 bg-slate-50">
-          <h3 class="text-base font-bold text-slate-900">❄️ 历年冬季（12月场）CCF CSP 认证考点分布一览</h3>
-          <p class="text-xs text-slate-500 mt-0.5">数据整理自 <a href="https://blog.csdn.net/qq_45123552/article/details/135997410" target="_blank" rel="noopener noreferrer" class="underline text-indigo-600">CCF-CSP 历年认证真题归档</a> 与 <a href="https://blog.csdn.net/m0_53641110/article/details/127044090" target="_blank" rel="noopener noreferrer" class="underline text-indigo-600">CCF 计算机软件能力认证题解汇总</a></p>
-        </div>
-        <div class="overflow-x-auto">
-          <table class="w-full text-left border-collapse text-sm">
-            <thead>
-              <tr class="bg-slate-100 text-slate-700 text-xs uppercase">
-                <th class="py-3 px-4 border-b">认证场次 (冬季12月)</th>
-                <th class="py-3 px-4 border-b">T1 (入门签到)</th>
-                <th class="py-3 px-4 border-b">T2 (基础算法)</th>
-                <th class="py-3 px-4 border-b">T3 (工程大模拟)</th>
-                <th class="py-3 px-4 border-b">T4 (进阶算法)</th>
-                <th class="py-3 px-4 border-b">T5 (压轴挑战)</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-slate-200 text-slate-700">
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第32次 (2023年12月)</td>
-                <td class="py-3 px-4">202312-1 仓库规划 (循环枚举)</td>
-                <td class="py-3 px-4">202312-2 因子化简 (质因数分解)</td>
-                <td class="py-3 px-4">202312-3 树上搜索 (树形DFS大模拟)</td>
-                <td class="py-3 px-4">202312-4 宝藏 (矩阵+线段树/分块)</td>
-                <td class="py-3 px-4">202312-5 彩色路径 (折半+状压DP)</td>
-              </tr>
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第28次 (2022年12月)</td>
-                <td class="py-3 px-4">202212-1 现值计算 (幂运算模拟)</td>
-                <td class="py-3 px-4">202212-2 训练计划 (拓扑排序/最早最晚时间)</td>
-                <td class="py-3 px-4">202212-3 JPEG解码 (Z字扫描+矩阵模拟)</td>
-                <td class="py-3 px-4">202212-4 聚集方差 (树上启发式合并)</td>
-                <td class="py-3 px-4">202212-5 星际网络 (线段树优化建图+最短路)</td>
-              </tr>
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第24次 (2021年12月)</td>
-                <td class="py-3 px-4">202112-1 序列查询 (分段求和)</td>
-                <td class="py-3 px-4">202112-2 序列查询新解 (整除分块/分段)</td>
-                <td class="py-3 px-4">202112-3 登机牌条码 (多项式校验大模拟)</td>
-                <td class="py-3 px-4">202112-4 磁盘文件操作 (动态开点线段树)</td>
-                <td class="py-3 px-4">202112-5 极差路径 (点分治/树状数组)</td>
-              </tr>
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第21次 (2020年12月)</td>
-                <td class="py-3 px-4">202012-1 期末预测之安全指数 (语法)</td>
-                <td class="py-3 px-4">202012-2 期末预测之最佳阈值 (前缀和)</td>
-                <td class="py-3 px-4">202012-3 带配额的文件系统 (树形目录模拟)</td>
-                <td class="py-3 px-4">202012-4 食材运输 (二分+树形DP+状压)</td>
-                <td class="py-3 px-4">202012-5 星际旅行 (线段树懒标记维护)</td>
-              </tr>
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第18次 (2019年12月)</td>
-                <td class="py-3 px-4">201912-1 报数 (循环与数位判断)</td>
-                <td class="py-3 px-4">201912-2 回收站选址 (哈希坐标统计)</td>
-                <td class="py-3 px-4">201912-3 化学方程式 (递归/栈字符串解析)</td>
-                <td class="py-3 px-4">201912-4 区块链 (图遍历+链表模拟)</td>
-                <td class="py-3 px-4">201912-5 魔数 (线段树维护模运算)</td>
-              </tr>
-              <tr>
-                <td class="py-3 px-4 font-semibold text-indigo-900">第15次 (2018年12月)</td>
-                <td class="py-3 px-4">201812-1 小明上学 (红绿灯分支模拟)</td>
-                <td class="py-3 px-4">201812-2 小明放学 (周期取模运算)</td>
-                <td class="py-3 px-4">201812-3 CIDR合并 (IP地址位运算+区间合并)</td>
-                <td class="py-3 px-4">201812-4 数据中心 (最小生成树 Kruskal)</td>
-                <td class="py-3 px-4">201812-5 管道清洁 (上下界最小费用流)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
 
       <!-- University Policy Table (Xidian, HDU, XJTU, BUAA, CSU, CHD) -->
       <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
@@ -409,7 +320,7 @@ sort(stu.begin(), stu.end(), [](const Node&amp; x, const Node&amp; y) {
         <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <h3 class="text-sm font-bold text-slate-900">3. 哈希表 map 与集合 set（T1 计数 &amp; T2 稀疏坐标）</h3>
-            <span class="text-xs text-purple-700 bg-purple-50 px-2 py-0.5 rounded font-medium">对应洛谷 P3370 / 力扣 1 / 349</span>
+            <span class="text-xs text-purple-700 bg-purple-50 px-2 py-0.5 rounded font-medium">对应洛谷 P3370 / P1097</span>
           </div>
           <pre class="bg-slate-900 text-slate-100 p-3.5 rounded-lg text-xs font-mono overflow-x-auto leading-relaxed"><code>// 1. 统计词频或数字出现次数
 unordered_map&lt;string, int&gt; cnt; // O(1) 均摊，需要有序则用 map
@@ -446,135 +357,13 @@ min_pq.pop();</code></pre>
       </div>
     </section>
 
-  
-    <!-- VIEW 3: GitHub Deployment & Quick Start Guide -->
-    <section id="view-github" class="hidden space-y-6">
-      <!-- Steps Banner -->
-      <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-slate-800 text-white rounded-2xl p-6 sm:p-8 shadow-md">
-        <div class="max-w-3xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-medium mb-3">
-            <span>✅ 零门槛 · 100% 静态免服务器 · 永久在线</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold tracking-tight">
-            如何将本文件直接上传到 GitHub 并生成可随时访问的“快速开始”链接？
-          </h2>
-          <p class="mt-2 text-sm text-slate-300 leading-relaxed">
-            本网页为完全独立的单文件 HTML 应用（内置所有 CSS 与逻辑），无需任何后端或数据库。只要上传到 GitHub 并开启免费的 <strong>GitHub Pages</strong>，就能生成专属在线网址，在手机、平板或任意电脑上随时随地点开刷题！
-          </p>
-        </div>
-      </div>
-
-      <!-- Step-by-step Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Step 1 -->
-        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
-          <div>
-            <div class="w-8 h-8 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700 flex items-center justify-center font-bold text-sm mb-3">
-              1
-            </div>
-            <h3 class="text-base font-bold text-slate-900">创建 GitHub 仓库</h3>
-            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
-              登录 <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 underline font-medium">GitHub</a>，点击右上角 <strong>New repository</strong>。
-              仓库名称可填 <code class="bg-slate-100 text-indigo-800 px-1.5 py-0.5 rounded text-xs">ccf-csp-winter</code>，权限选择 <strong>Public</strong>（公开）。
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500">
-            💡 小技巧：勾选 "Add a README file" 便于快速初始化仓库。
-          </div>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
-          <div>
-            <div class="w-8 h-8 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700 flex items-center justify-center font-bold text-sm mb-3">
-              2
-            </div>
-            <h3 class="text-base font-bold text-slate-900">上传并重命名为 index.html</h3>
-            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
-              在仓库页面点击 <strong>Add file → Upload files</strong>，将本网页文件拖入。
-              <strong class="text-slate-800">关键建议：</strong>直接将文件名命名为 <code class="bg-slate-100 text-indigo-800 px-1.5 py-0.5 rounded text-xs font-semibold">index.html</code>，这样生成的网址最为干净美观。
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500">
-            💡 点击页面底部 Commit changes 提交保存。
-          </div>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex flex-col justify-between">
-          <div>
-            <div class="w-8 h-8 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700 flex items-center justify-center font-bold text-sm mb-3">
-              3
-            </div>
-            <h3 class="text-base font-bold text-slate-900">开启 GitHub Pages</h3>
-            <p class="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">
-              点击仓库顶部的 <strong>Settings → Pages</strong>（左侧侧边栏）。
-              在 <em>Build and deployment</em> 下方将 Source 选择为 <strong>Deploy from a branch</strong>，Branch 选择 <strong>main</strong> 或 <strong>master</strong> 分支，文件夹保持 <strong>/ (root)</strong>，点击 <strong>Save</strong>。
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500">
-            ⏱️ 等待约 1~2 分钟即可生成你的专属访问地址！
-          </div>
-        </div>
-      </div>
-
-      <!-- Quick Start Button Generator Card -->
-      <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm space-y-4">
-        <div>
-          <h3 class="text-base font-bold text-slate-900">🎯 自动生成你的“快速开始”按钮与专属分享徽章</h3>
-          <p class="text-xs sm:text-sm text-slate-600 mt-1">
-            输入你的 GitHub 用户名与仓库名，下方将自动实时生成可直接复制到 README.md、个人主页或发给同学的“快速开始”按钮代码：
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label for="input-gh-user" class="block text-xs font-medium text-slate-700 mb-1">GitHub 用户名 (Username)</label>
-            <input id="input-gh-user" type="text" placeholder="例如：your-username" class="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
-          <div>
-            <label for="input-gh-repo" class="block text-xs font-medium text-slate-700 mb-1">仓库名称 (Repository Name)</label>
-            <input id="input-gh-repo" type="text" placeholder="例如：ccf-csp-winter" value="ccf-csp-winter" class="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
-        </div>
-
-        <!-- Generated URL Display & Direct Preview Button -->
-        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div class="space-y-0.5">
-            <span class="text-xs text-slate-500 font-medium">你的专属 Pages 快速开始在线网址：</span>
-            <div id="display-gh-url" class="text-sm font-semibold text-indigo-700 break-all">
-              https://your-username.github.io/ccf-csp-winter/
-            </div>
-          </div>
-          <div class="flex items-center gap-2 shrink-0">
-            <a id="link-direct-preview" href="https://your-username.github.io/ccf-csp-winter/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold shadow-sm transition-colors flex items-center gap-1.5">
-              <span>🚀 点击在线打开</span>
-            </a>
-            <button id="btn-copy-url" type="button" class="px-3.5 py-2 rounded-lg bg-white border border-slate-300 hover:bg-slate-100 text-slate-700 text-xs font-medium transition-colors">
-              复制网址
-            </button>
-          </div>
-        </div>
-
-        <!-- Markdown Code Snippet -->
-        <div class="space-y-1.5">
-          <div class="flex items-center justify-between">
-            <label class="block text-xs font-medium text-slate-700">复制 Markdown 按钮代码（直接粘贴到你的 GitHub README.md 中）：</label>
-            <button id="btn-copy-md" type="button" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold underline">
-              复制代码
-            </button>
-          </div>
-          <textarea id="snippet-markdown" readonly rows="3" class="w-full font-mono text-xs p-3 rounded-lg bg-slate-900 text-emerald-400 border border-slate-800 focus:outline-none"></textarea>
-        </div>
-      </div>
-    </section>
-  </main>
+    </main>
 
   <!-- Footer -->
   <footer class="bg-white border-t border-slate-200 mt-12 py-5 text-xs text-slate-500">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
       <div>
-        核心数据源：<a href="https://www.luogu.com.cn/problem/list?tag=342" target="_blank" rel="noopener noreferrer" class="underline hover:text-slate-800">洛谷 CSP 真题题库</a> · <a href="https://leetcode.cn/problemset/" target="_blank" rel="noopener noreferrer" class="underline hover:text-slate-800">力扣 (LeetCode) 算法题库</a> · <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-slate-800">CCF CSP 官方认证门户</a>
+        核心数据源：<a href="https://www.luogu.com.cn/problem/list?tag=342" target="_blank" rel="noopener noreferrer" class="underline hover:text-slate-800">洛谷 CSP 真题题库</a> · <a href="https://www.cspro.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-slate-800">CCF CSP 官方认证门户</a>
       </div>
       <div>
         点击题目卡片左侧复选框即可保存本地刷题进度
@@ -583,7 +372,7 @@ min_pq.pop();</code></pre>
   </footer>
 
   <script>
-    // Complete dataset of CCF CSP problems, Luogu CSP problems, and LeetCode equivalents sorted by difficultyScore (low -> high)
+    // Complete dataset of CCF CSP problems with Luogu practice problems sorted by difficultyScore (low -> high)
     const PROBLEMS_DATA = [
       // ==================== LEVEL 0: C++ 语法与 STL 考前复健 (8道精选) ====================
       {
@@ -591,120 +380,112 @@ min_pq.pop();</code></pre>
         diffLevel: 0,
         diffScore: 1,
         diffLabel: "Lv.0 C++语法复健 (输入输出与循环)",
-        winterExam: false,
         ccfCode: "C++复健 01：标准输入输出 (cin/cout)、条件分支与基本循环",
         ccfUrl: "https://www.luogu.com.cn/problem/P1001",
-        luoguTitle: "P1001 A+B Problem / P1046 陶陶摘苹果",
+        luoguTitle: "P1046 [NOIP 2005 普及组] 陶陶摘苹果",
         luoguUrl: "https://www.luogu.com.cn/problem/P1046",
-        leetcodeTitle: "LeetCode 1480. 一维数组的动态和 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/running-sum-of-1d-array/",
+        luoguTitle2: "P1035 [NOIP 2002 普及组] 级数求和",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1035",
         tags: ["cin/cout", "for循环", "一维数组"],
-        note: "【复健第一步】找回 C++ 编译运行手感：练习 #include <bits/stdc++.h>、using namespace std;、数组定义与 for 循环遍历。"
+        note: "【复健第一步】找回 C++ 编译运行手感：练习 #include <bits/stdc++.h>、using namespace std;、数组定义与 for 循环遍历；配合洛谷 P1035 级数求和练习循环终止条件。"
       },
       {
         id: "cpp-warmup-2",
         diffLevel: 0,
         diffScore: 2,
         diffLabel: "Lv.0 C++语法复健 (string字符串操作)",
-        winterExam: false,
         ccfCode: "C++复健 02：std::string 拼接、反转、字符 ASCII 码转换",
         ccfUrl: "https://www.luogu.com.cn/problem/P1914",
         luoguTitle: "P1914 小书童——凯撒密码",
         luoguUrl: "https://www.luogu.com.cn/problem/P1914",
-        leetcodeTitle: "LeetCode 541. 反转字符串 II (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/reverse-string-ii/",
+        luoguTitle2: "P1307 [NOIP 2011 普及组] 数字反转",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1307",
         tags: ["std::string", "std::reverse", "字符运算"],
-        note: "【复健第二步】熟悉 C++ 字符串：掌握 s.size()、下标访问、字符加减 ('a' + (c - 'a' + n) % 26) 以及 std::reverse(s.begin(), s.end())。"
+        note: "【复健第二步】熟悉 C++ 字符串：掌握 s.size()、下标访问、字符加减 ('a' + (c - 'a' + n) % 26) 与 std::reverse；洛谷 P1307 数字反转可巩固字符串与整数互转。"
       },
       {
         id: "cpp-warmup-3",
         diffLevel: 0,
         diffScore: 3,
         diffLabel: "Lv.0 C++语法复健 (getline与字符串查找)",
-        winterExam: false,
         ccfCode: "C++复健 03：整行读取 getline、大小写转换与 s.find() 匹配",
         ccfUrl: "https://www.luogu.com.cn/problem/P1308",
         luoguTitle: "P1308 [NOIP 普及组] 统计单词数",
         luoguUrl: "https://www.luogu.com.cn/problem/P1308",
-        leetcodeTitle: "LeetCode 58. 最后一个单词的长度 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/length-of-last-word/",
+        luoguTitle2: "P5015 [NOIP 2018 普及组] 标题统计",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P5015",
         tags: ["getline", "tolower", "stringstream"],
-        note: "【T3文本模拟基础】练习用 getline(cin, s) 读取含空格的整行文本，使用 tolower() 统一大小写，或用 stringstream 按空格切分单词。"
+        note: "【T3文本模拟基础】练习用 getline(cin, s) 读取含空格的整行文本，使用 tolower() 统一大小写，或用 stringstream 按空格切分单词；P5015 标题统计是同类入门题。"
       },
       {
         id: "cpp-warmup-4",
         diffLevel: 0,
         diffScore: 4,
         diffLabel: "Lv.0 C++语法复健 (vector与排序去重)",
-        winterExam: false,
         ccfCode: "C++复健 04：std::vector 动态数组、std::sort 与 unique 去重",
         ccfUrl: "https://www.luogu.com.cn/problem/P1059",
         luoguTitle: "P1059 [NOIP 普及组] 明明的随机数",
         luoguUrl: "https://www.luogu.com.cn/problem/P1059",
-        leetcodeTitle: "LeetCode 349. 两个数组的交集 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/intersection-of-two-arrays/",
+        luoguTitle2: "P1102 A-B 数对",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1102",
         tags: ["std::vector", "std::sort", "std::unique"],
-        note: "【CSP T1/T2高频】练习 vector 的 push_back()，以及 C++ 最经典的排序+去重三连：sort(v.begin(), v.end()); v.erase(unique(v.begin(), v.end()), v.end());"
+        note: "【CSP T1/T2高频】练习 vector 的 push_back()，以及排序+去重三连：sort(v.begin(), v.end()); v.erase(unique(v.begin(), v.end()), v.end())；P1102 A-B 数对练习排序后双指针计数。"
       },
       {
         id: "cpp-warmup-5",
         diffLevel: 0,
         diffScore: 5,
         diffLabel: "Lv.0 C++语法复健 (struct与自定义排序)",
-        winterExam: false,
         ccfCode: "C++复健 05：struct 结构体定义与 sort 自定义比较函数 (cmp / lambda)",
         ccfUrl: "https://www.luogu.com.cn/problem/P1093",
         luoguTitle: "P1093 [NOIP 普及组] 奖学金",
         luoguUrl: "https://www.luogu.com.cn/problem/P1093",
-        leetcodeTitle: "LeetCode 179. 最大数 (Medium - 自定义排序规则)",
-        leetcodeUrl: "https://leetcode.cn/problems/largest-number/",
+        luoguTitle2: "P1012 [NOIP 1998 提高组] 拼数",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1012",
         tags: ["struct结构体", "自定义cmp", "多关键字排序"],
-        note: "【CSP T1/T2/T3必考】几乎每次 CSP 都会考按多个条件排序（如总分降序、同分按编号升序），做完洛谷 P1093 即可彻底找回 struct + cmp 肌肉记忆！"
+        note: "【CSP T1/T2/T3必考】几乎每次认证都会考按多个条件排序（如总分降序、同分按编号升序），P1093 奖学金 + P1012 拼数 可彻底找回 struct + cmp 肌肉记忆。"
       },
       {
         id: "cpp-warmup-6",
         diffLevel: 0,
         diffScore: 6,
         diffLabel: "Lv.0 C++语法复健 (map与set容器)",
-        winterExam: false,
         ccfCode: "C++复健 06：std::map / unordered_map 键值映射与 std::set 集合",
         ccfUrl: "https://www.luogu.com.cn/problem/P3370",
         luoguTitle: "P3370 【模板】字符串哈希 (可直接用 set/map 练习)",
         luoguUrl: "https://www.luogu.com.cn/problem/P3370",
-        leetcodeTitle: "LeetCode 350. 两个数组的交集 II (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/intersection-of-two-arrays-ii/",
+        luoguTitle2: "P1923 【深基9.例4】求第 k 小的数",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1923",
         tags: ["std::map", "std::set", "哈希计数"],
-        note: "【T1-T3核心容器】掌握 mp[key]++ 统计频次、st.insert(x) 自动去重排序、st.count(x) 判存。这是解决 T2 稀疏坐标和 T3 字符串映射的利器。"
+        note: "【T1-T3核心容器】掌握 mp[key]++ 统计频次、st.insert(x) 自动去重排序、st.count(x) 判存；配合 P1923 求第 k 小的数巩固容器的查找与排序能力。"
       },
       {
         id: "cpp-warmup-7",
         diffLevel: 0,
         diffScore: 7,
         diffLabel: "Lv.0 C++语法复健 (stack栈与queue队列)",
-        winterExam: false,
         ccfCode: "C++复健 07：std::queue 先进先出队列与 std::stack 后进先出栈",
         ccfUrl: "https://www.luogu.com.cn/problem/P1540",
         luoguTitle: "P1540 [NOIP 提高组] 机器翻译",
         luoguUrl: "https://www.luogu.com.cn/problem/P1540",
-        leetcodeTitle: "LeetCode 20. 有效的括号 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/valid-parentheses/",
+        luoguTitle2: "P1739 表达式括号匹配",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1739",
         tags: ["std::queue", "std::stack", "括号匹配"],
-        note: "【模拟与BFS基础】注意 C++ 的 pop() 不返回元素，需先取 q.front() 或 st.top() 再调用 pop()。做完这两题即可熟练掌握栈与队列操作。"
+        note: "【模拟与BFS基础】注意 C++ 的 pop() 不返回元素，需先取 q.front() 或 st.top() 再调用 pop()；P1739 表达式括号匹配是栈的最典型应用。"
       },
       {
         id: "cpp-warmup-8",
         diffLevel: 0,
         diffScore: 8,
         diffLabel: "Lv.0 C++语法复健 (priority_queue与前缀和)",
-        winterExam: false,
         ccfCode: "C++复健 08：std::priority_queue 优先队列（小根堆）与一维前缀和",
         ccfUrl: "https://www.luogu.com.cn/problem/P1090",
         luoguTitle: "P1090 [NOIP 提高组] 合并果子",
         luoguUrl: "https://www.luogu.com.cn/problem/P1090",
-        leetcodeTitle: "LeetCode 303. 区域和检索 - 数组不可变 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/range-sum-query-immutable/",
+        luoguTitle2: "P8218 【深进1.例1】求区间和",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P8218",
         tags: ["priority_queue", "小根堆 greater<int>", "一维前缀和"],
-        note: "【衔接T2与T4桥梁】练习 priority_queue<int, vector<int>, greater<int>> 定义小根堆（合并果子与 Dijkstra 最短路必用），以及力扣303题一维前缀和模板。"
+        note: "【衔接T2与T4桥梁】练习 priority_queue<int, vector<int>, greater<int>> 定义小根堆（合并果子与 Dijkstra 必用）；P8218 求区间和是标准的一维前缀和模板。"
       },
 
       // ==================== LEVEL 1: 入门签到 (T1 / CSP-J T1) ====================
@@ -713,90 +494,84 @@ min_pq.pop();</code></pre>
         diffLevel: 1,
         diffScore: 10,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: false,
         ccfCode: "202406-1 矩阵重塑（其一）",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P5660 [CSP-J 2019] 数字游戏",
         luoguUrl: "https://www.luogu.com.cn/problem/P5660",
-        leetcodeTitle: "LeetCode 566. 重塑矩阵 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/reshape-the-matrix/",
+        luoguTitle2: "P5731 【深基5.习6】蛇形方阵",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P5731",
         tags: ["数组遍历", "二维坐标映射", "签到题"],
-        note: "第34次CCF CSP T1原题完全对应力扣566题（一维下标 i*m+j 转新矩阵 r*c）；洛谷搭配CSP-J最经典的入门签到题。"
+        note: "第34次 CCF CSP T1 原题考察一维下标 i*m+j 转新矩阵 r*c 的二维坐标映射；洛谷 P5660 数字游戏与 P5731 蛇形方阵可把二维数组下标运算练熟。"
       },
       {
         id: "csp-201312-1",
         diffLevel: 1,
         diffScore: 12,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: true,
-        ccfCode: "201312-1 出现次数最多的数 (冬季场) / 202403-1 词频统计",
+        ccfCode: "201312-1 出现次数最多的数 / 202403-1 词频统计",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P11227 [CSP-J 2024] 扑克牌",
         luoguUrl: "https://www.luogu.com.cn/problem/P11227",
-        leetcodeTitle: "LeetCode 169. 多数元素 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/majority-element/",
+        luoguTitle2: "P1097 [NOIP 2007 提高组] 统计数字",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1097",
         tags: ["哈希表", "桶计数", "去重统计"],
-        note: "冬季认证首场T1及第33次202403-1词频统计核心考点：使用数组桶或 std::map 统计元素频次并处理并列最小值。"
+        note: "T1 高频考点：使用数组桶或 std::map 统计元素频次并处理并列最小值；洛谷 P11227 扑克牌 与 P1097 统计数字 是同一类频次统计题。"
       },
       {
         id: "csp-201712-1",
         diffLevel: 1,
         diffScore: 15,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: true,
-        ccfCode: "201712-1 最小差值 (冬季场) / 201409-1 相邻数对",
+        ccfCode: "201712-1 最小差值 / 201409-1 相邻数对",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P14357 [CSP-J 2025] 拼数",
         luoguUrl: "https://www.luogu.com.cn/problem/P14357",
-        leetcodeTitle: "LeetCode 1200. 最小绝对差 (Easy)",
-        leetcodeUrl: "https://leetcode.cn/problems/minimum-absolute-difference/",
+        luoguTitle2: "P1068 [NOIP 2009 普及组] 分数线划定",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1068",
         tags: ["排序", "相邻元素比较", "贪心入门"],
-        note: "2017年12月冬季场T1原题：将数组排序后遍历相邻元素差值即可 O(n log n) 解决，完全对应力扣1200题与洛谷P14357排序贪心。"
+        note: "2017年 T1 原题：将数组排序后遍历相邻元素差值即可 O(n log n) 解决；洛谷 P14357 拼数 与 P1068 分数线划定 可同时练习排序与多关键字处理。"
       },
       {
         id: "csp-202312-1",
         diffLevel: 1,
         diffScore: 18,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: true,
-        ccfCode: "202312-1 仓库规划 (冬季场) / 202212-1 现值计算 (冬季场)",
+        ccfCode: "202312-1 仓库规划 / 202212-1 现值计算",
         ccfUrl: "https://blog.csdn.net/weixin_64084409/article/details/138590706",
         luoguTitle: "P8813 [CSP-J 2022] 乘方",
         luoguUrl: "https://www.luogu.com.cn/problem/P8813",
-        leetcodeTitle: "LeetCode 48. 旋转图像 / 201503-1 图像旋转",
-        leetcodeUrl: "https://leetcode.cn/problems/rotate-image/",
+        luoguTitle2: "P1205 [USACO1.2] 方块转换 Transformations",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1205",
         tags: ["多重循环", "多维坐标比较", "防溢出"],
-        note: "2023年12月与2022年12月冬季场T1：考察多维坐标全维偏序枚举与幂次溢出判断（对应洛谷P8813乘方防 int 溢出）。"
+        note: "T1 常考多维坐标全维偏序枚举与幂次溢出判断；洛谷 P8813 乘方 练习防 int 溢出，P1205 方块转换 练习矩阵旋转与坐标变换。"
       },
       {
         id: "csp-202112-1",
         diffLevel: 1,
         diffScore: 20,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: true,
-        ccfCode: "202112-1 序列查询 (冬季场) / 201912-1 报数 (冬季场)",
+        ccfCode: "202112-1 序列查询 / 201912-1 报数",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7071 [CSP-J 2020] 优秀的拆分",
         luoguUrl: "https://www.luogu.com.cn/problem/P7071",
-        leetcodeTitle: "LeetCode 661. 图片平滑器 / 202104-1 灰度直方图",
-        leetcodeUrl: "https://leetcode.cn/problems/image-smoother/",
+        luoguTitle2: "P2670 [NOIP 2015 普及组] 扫雷游戏",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P2670",
         tags: ["数学分段", "位运算基础", "二维数组遍历"],
-        note: "2021年12月冬季场T1：考察分段区间求和与基本数位拆分，切忌逐个枚举大整数导致超时。"
+        note: "T1 常考分段区间求和与基本数位拆分，切忌逐个枚举大整数导致超时；洛谷 P7071 优秀的拆分 与 P2670 扫雷游戏 是同类入门题。"
       },
       {
         id: "csp-201812-1",
         diffLevel: 1,
         diffScore: 23,
         diffLabel: "Lv.1 入门签到 (T1 / 简单)",
-        winterExam: true,
-        ccfCode: "201812-1 小明上学 (冬季场) / 202012-1 期末预测之安全指数 (冬季场)",
+        ccfCode: "201812-1 小明上学 / 202012-1 期末预测之安全指数",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7909 [CSP-J 2021] 分糖果",
         luoguUrl: "https://www.luogu.com.cn/problem/P7909",
-        leetcodeTitle: "LeetCode 1823. 找出游戏的获胜者 (基础模拟)",
-        leetcodeUrl: "https://leetcode.cn/problems/find-the-winner-of-the-circular-game/",
+        luoguTitle2: "P1996 约瑟夫问题",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1996",
         tags: ["分支模拟", "取模运算", "区间余数极值"],
-        note: "2018年12月冬季场T1（小明上学）与T2（小明放学）经典周期取模问题，搭配洛谷CSP-J分糖果练习区间取模最大化。"
+        note: "2018年 T1/T2 的经典周期取模问题，搭配洛谷 P7909 分糖果 练习区间取模最大化；P1996 约瑟夫问题 练习环形取模模拟。"
       },
 
       // ==================== LEVEL 2: 普及- 基础算法与小模拟 (T2 / CSP-J T2 / CSP-S T1) ====================
@@ -805,105 +580,98 @@ min_pq.pop();</code></pre>
         diffLevel: 2,
         diffScore: 30,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 简单~中等)",
-        winterExam: true,
-        ccfCode: "201312-2 ISBN号码 (冬季场) / 201712-2 游戏 (冬季场)",
+        ccfCode: "201312-2 ISBN号码 / 201712-2 游戏",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P9748 [CSP-J 2023] 小苹果",
         luoguUrl: "https://www.luogu.com.cn/problem/P9748",
-        leetcodeTitle: "LeetCode 1823. 找出游戏的获胜者 (约瑟夫环模拟)",
-        leetcodeUrl: "https://leetcode.cn/problems/find-the-winner-of-the-circular-game/",
+        luoguTitle2: "P1328 [NOIP 2014 提高组] 生活大爆炸版石头剪刀布",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1328",
         tags: ["约瑟夫环", "队列模拟", "字符串校验"],
-        note: "2017年12月冬季场T2《游戏》是标准的报数淘汰问题（对应力扣1823题和洛谷P9748小苹果的隔项淘汰递推）。"
+        note: "T2 常考报数淘汰类问题（如 201712-2 游戏）；洛谷 P9748 小苹果 的隔项淘汰递推与 P1328 石头剪刀布 的规则模拟都是必练项。"
       },
       {
         id: "csp-201412-2",
         diffLevel: 2,
         diffScore: 34,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "201412-2 Z字形扫描 (冬季场) / 202212-3 JPEG解码 (冬季场子问题)",
+        ccfCode: "201412-2 Z字形扫描 / 202212-3 JPEG解码（子问题）",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7072 [CSP-J 2020] 直播获奖",
         luoguUrl: "https://www.luogu.com.cn/problem/P7072",
-        leetcodeTitle: "LeetCode 498. 对角线遍历 (Medium - 100%原题)",
-        leetcodeUrl: "https://leetcode.cn/problems/diagonal-traverse/",
+        luoguTitle2: "P1216 [USACO1.5] 数字三角形 Number Triangles",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1216",
         tags: ["方向数组", "矩阵扫描", "桶排维护"],
-        note: "力扣498题《对角线遍历》与2014年12月冬季场T2《Z字形扫描》完全一致，且在2022年12月冬季场T3《JPEG解码》中作为核心步骤再次出现！"
+        note: "Z 字形扫描与矩阵模拟是 T2/T3 的常见子问题：按方向数组沿对角线遍历；洛谷 P7072 直播获奖 练习边扫边维护，P1216 数字三角形 练习矩阵路径遍历。"
       },
       {
         id: "csp-201809-2",
         diffLevel: 2,
         diffScore: 37,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "201809-2 买菜 / 201912-2 回收站选址 (冬季场)",
+        ccfCode: "201809-2 买菜 / 201912-2 回收站选址",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P1047 [NOIP 普及组] 校门外的树",
         luoguUrl: "https://www.luogu.com.cn/problem/P1047",
-        leetcodeTitle: "LeetCode 56. 合并区间 (Medium)",
-        leetcodeUrl: "https://leetcode.cn/problems/merge-intervals/",
-        tags: ["区间交并", "哈希坐标", "雙指针扫描"],
-        note: "区间重合统计与二维稀疏坐标哈希查找（std::set<pair<int,int>>）是冬季场T2常客（如201912-2回收站选址）。"
+        luoguTitle2: "P1803 线段覆盖 / 凌乱的yyy",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1803",
+        tags: ["区间交并", "哈希坐标", "双指针扫描"],
+        note: "区间重合统计与二维稀疏坐标哈希查找（std::set<pair<int,int>>）是 T2 常客（如 201912-2 回收站选址）；洛谷 P1047 与 P1803 是同类的区间处理题。"
       },
       {
         id: "csp-202104-2",
         diffLevel: 2,
         diffScore: 40,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "202012-2 期末预测之最佳阈值 (冬季场) / 202104-2 邻域均值",
+        ccfCode: "202012-2 期末预测之最佳阈值 / 202104-2 邻域均值",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P5661 [CSP-J 2019] 公交换乘",
         luoguUrl: "https://www.luogu.com.cn/problem/P5661",
-        leetcodeTitle: "LeetCode 304. 二维区域和检索 - 矩阵不可变 (Medium)",
-        leetcodeUrl: "https://leetcode.cn/problems/range-sum-query-2d-immutable/",
+        luoguTitle2: "P2004 领地选择",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P2004",
         tags: ["一维前缀和", "二维前缀和", "时间窗口队列"],
-        note: "【必刷核心】CCF CSP 的 T2 超过 40% 考察前缀和！2020年12月冬季场T2考排序+一维前缀和，202104-2考二维前缀和（完全对应力扣304题）。"
+        note: "【必刷核心】CCF CSP 的 T2 高频考察前缀和：一维前缀和配合排序，二维前缀和用容斥公式；洛谷 P5661 公交换乘 与 P2004 领地选择 正好覆盖这两个模板。"
       },
       {
         id: "csp-202203-2",
         diffLevel: 2,
         diffScore: 43,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "202203-2 出行计划 / 202109-2 非零段划分 / 202112-2 序列查询新解 (冬季场)",
+        ccfCode: "202203-2 出行计划 / 202109-2 非零段划分 / 202112-2 序列查询新解",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P9749 [CSP-J 2023] 公路",
         luoguUrl: "https://www.luogu.com.cn/problem/P9749",
-        leetcodeTitle: "LeetCode 1094. 拼车 (Medium - 差分数组模板)",
-        leetcodeUrl: "https://leetcode.cn/problems/car-pooling/solution/suan-fa-xiao-ke-tang-chai-fen-shu-zu-fu-9d4ra/",
+        luoguTitle2: "P2367 语文成绩",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P2367",
         tags: ["差分数组", "贪心策略", "整除分块"],
-        note: "【T2满分杀手锏】当暴力枚举每次查询 O(nq) 只能拿 70 分时，将询问转化为区间加减（差分数组，对应力扣1094题）即可 O(n+q) 拿满 100 分。"
+        note: "【T2满分杀手锏】暴力枚举每次查询 O(nq) 只能拿部分分，将询问转化为区间加减（差分数组）即可 O(n+q) 拿满；洛谷 P9749 公路 与 P2367 语文成绩 都是差分模板题。"
       },
       {
         id: "csp-202303-2",
         diffLevel: 2,
         diffScore: 46,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "202303-2 垦田计划 / 202312-2 因子化简 (冬季场)",
+        ccfCode: "202303-2 垦田计划 / 202312-2 因子化简",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P11231 [CSP-S 2024] 决斗",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 875. 爱吃香蕉的珂珂 (Medium - 二分答案)",
-        leetcodeUrl: "https://leetcode.cn/problems/koko-eating-bananas/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P11231",
+        luoguTitle2: "P1182 数列分段 Section II",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1182",
         tags: ["二分答案", "贪心匹配", "质因数分解"],
-        note: "垦田计划是典型的「最小化最大耗时」二分答案模板题（完全对应力扣875题）；2023年12月冬季场T2则考察试除法分解质因数。"
+        note: "垦田计划是典型的「最小化最大耗时」二分答案模板题；洛谷 P11231 决斗 练习贪心匹配，P1182 数列分段 是最标准的二分答案入门。"
       },
       {
         id: "csp-202212-2",
         diffLevel: 2,
         diffScore: 49,
         diffLabel: "Lv.2 普及- 基础算法 (T2 / 中等)",
-        winterExam: true,
-        ccfCode: "202212-2 训练计划 (冬季场)",
+        ccfCode: "202212-2 训练计划",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P9752 [CSP-S 2023] 密码锁",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 210. 课程表 II (Medium - 拓扑排序)",
-        leetcodeUrl: "https://leetcode.cn/problems/course-schedule-ii/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P9752",
+        luoguTitle2: "P1113 杂务",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1113",
         tags: ["拓扑排序", "最早/最晚开始时间", "状态枚举"],
-        note: "2022年12月冬季场T2《训练计划》考察科目依赖关系下的最早开始时间（正推）与最晚开始时间（逆推），对应力扣210题拓扑排序。"
+        note: "202212-2 训练计划考察依赖关系下的最早开始时间（正推）与最晚开始时间（逆推）；洛谷 P9752 密码锁 练习状态枚举，P1113 杂务 是拓扑排序模板。"
       },
 
       // ==================== LEVEL 3: 普及/提高- 工程大模拟与核心算法 (T3 / CSP-J T3 / CSP-S T2) ====================
@@ -912,105 +680,98 @@ min_pq.pop();</code></pre>
         diffLevel: 3,
         diffScore: 55,
         diffLabel: "Lv.3 普及/提高- 工程模拟 (T3 / 中等)",
-        winterExam: false,
         ccfCode: "201604-3 路径解析 / 201803-3 URL映射",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7911 [CSP-J 2021] 网络连接",
         luoguUrl: "https://www.luogu.com.cn/problem/P7911",
-        leetcodeTitle: "LeetCode 71. 简化路径 (Medium - 100%原题)",
-        leetcodeUrl: "https://leetcode.cn/problems/simplify-path/",
+        luoguTitle2: "P1098 [NOIP 2007 提高组] 字符串的展开",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1098",
         tags: ["字符串分割", "栈模拟目录", "IP格式校验"],
-        note: "201604-3《路径解析》与力扣71题《简化路径》完全同源（处理 . 和 .. 及多重斜杠）；洛谷P7911则训练高强度的 IP:Port 字符串合法性校验。"
+        note: "201604-3 路径解析考察 . 与 .. 的栈式处理与多斜杠归一化；洛谷 P7911 网络连接 训练高强度 IP:Port 字符串校验，P1098 字符串的展开 训练字符串解析。"
       },
       {
         id: "csp-201812-3",
         diffLevel: 3,
         diffScore: 58,
         diffLabel: "Lv.3 普及/提高- 工程模拟 (T3 / 中等偏难)",
-        winterExam: true,
-        ccfCode: "201812-3 CIDR合并 (冬季场) / 202104-3 DHCP服务器",
+        ccfCode: "201812-3 CIDR合并 / 202104-3 DHCP服务器",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7912 [CSP-J 2021] 小熊的果篮",
         luoguUrl: "https://www.luogu.com.cn/problem/P7912",
-        leetcodeTitle: "LeetCode 468. 验证IP地址 (Medium)",
-        leetcodeUrl: "https://leetcode.cn/problems/validate-ip-address/",
+        luoguTitle2: "P1563 [NOIP 2016 提高组] 玩具谜题",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1563",
         tags: ["IP位运算", "区间链表合并", "协议状态机"],
-        note: "网络协议模拟是 CCF CSP T3 最爱出的题型之一（如冬季场201812-3 CIDR合并、202104-3 DHCP），需熟练把 IP 转为 32 位无符号整数处理。"
+        note: "网络协议模拟是 T3 最爱出的题型之一（CIDR 合并、DHCP 服务器），需熟练把 IP 转为 32 位无符号整数处理；洛谷 P7912 与 P1563 可练习复杂规则模拟。"
       },
       {
         id: "csp-201903-2",
         diffLevel: 3,
         diffScore: 62,
         diffLabel: "Lv.3 普及/提高- 表达式与模拟 (T3 / 中等偏难)",
-        winterExam: false,
         ccfCode: "201903-2 二十四点 / 202309-3 梯度求解",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P8815 [CSP-J 2022] 逻辑表达式",
         luoguUrl: "https://www.luogu.com.cn/problem/P8815",
-        leetcodeTitle: "LeetCode 150. 逆波兰表达式求值 / 224. 基本计算器",
-        leetcodeUrl: "https://leetcode.cn/problems/evaluate-reverse-polish-notation/",
-        tags: ["表达式树", "单调栈/双栈", "后缀表达式求导"],
-        note: "202309-3《梯度求解》考察后缀表达式建树求偏导，与洛谷P8815《逻辑表达式》、P7073《表达式》及力扣150/224题高度一致。"
+        luoguTitle2: "P1449 后缀表达式",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1449",
+        tags: ["表达式树", "单调栈/双栈", "后缀表达式"],
+        note: "202309-3 梯度求解考察后缀表达式建树求偏导；洛谷 P8815 逻辑表达式 与 P1449 后缀表达式 覆盖表达式求值的两种主流写法。"
       },
       {
         id: "csp-201912-3",
         diffLevel: 3,
         diffScore: 66,
         diffLabel: "Lv.3 普及/提高- 工程大模拟 (T3 / 困难)",
-        winterExam: true,
-        ccfCode: "201912-3 化学方程式 (冬季场) / 202403-3 化学方程式配平",
+        ccfCode: "201912-3 化学方程式 / 202403-3 化学方程式配平",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P9750 [CSP-J 2023] 一元二次方程",
         luoguUrl: "https://www.luogu.com.cn/problem/P9750",
-        leetcodeTitle: "LeetCode 726. 原子的数量 (Hard - 100%核心原题)",
-        leetcodeUrl: "https://leetcode.cn/problems/number-of-atoms/",
+        luoguTitle2: "P1022 计算器的改良",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1022",
         tags: ["递归括号解析", "高斯消元", "精细大模拟"],
-        note: "【冬季场经典大模拟】2019年12月冬季场T3《化学方程式》的核心就是解析嵌套括号的化学式原子个数——力扣726题《原子的数量》是100%对口原题！"
+        note: "T3 经典大模拟：核心是解析嵌套括号中的原子个数；洛谷 P9750 一元二次方程 练习精细的数学模拟，P1022 计算器的改良 练习表达式解析。"
       },
       {
         id: "csp-201312-3",
         diffLevel: 3,
         diffScore: 69,
         diffLabel: "Lv.3 普及/提高- 核心数据结构 (T3 / 困难)",
-        winterExam: true,
-        ccfCode: "201312-3 最大的矩形 (冬季场) / 202406-3 文本分词",
+        ccfCode: "201312-3 最大的矩形 / 202406-3 文本分词",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P11232 [CSP-S 2024] 超速检测",
         luoguUrl: "https://www.luogu.com.cn/problem/P11232",
-        leetcodeTitle: "LeetCode 84. 柱状图中最大的矩形 (Hard - 100%原题)",
-        leetcodeUrl: "https://leetcode.cn/problems/largest-rectangle-in-histogram/",
+        luoguTitle2: "P5788 【模板】单调栈",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P5788",
         tags: ["单调栈", "二分+区间选点", "优先队列"],
-        note: "201312-3《最大的矩形》与力扣84题完全一致（单调栈 O(n) 模板）；洛谷P11232《超速检测》则结合物理运动公式二分测速仪区间与贪心区间覆盖。"
+        note: "201312-3 最大的矩形 是单调栈 O(n) 模板题；洛谷 P11232 超速检测 结合物理公式二分与贪心区间覆盖，P5788 单调栈 是最直接的模板练习。"
       },
       {
         id: "csp-202012-3",
         diffLevel: 3,
         diffScore: 73,
         diffLabel: "Lv.3 普及/提高- 工程大模拟 (T3 / 困难)",
-        winterExam: true,
-        ccfCode: "202012-3 带配额的文件系统 (冬季场) / 202312-3 树上搜索 (冬季场)",
+        ccfCode: "202012-3 带配额的文件系统 / 202312-3 树上搜索",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P9754 [CSP-S 2023] 结构体",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 146. LRU 缓存 (Medium - 202412-3 缓存模拟同源)",
-        leetcodeUrl: "https://leetcode.cn/problems/lru-cache/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P9754",
+        luoguTitle2: "P1160 队列安排",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1160",
         tags: ["树形目录模拟", "内存对齐模拟", "缓存替换策略"],
-        note: "冬季场T3常考系统级工程模拟：如202012-3目录树配额回滚、202312-3树上重心搜索、202412-3缓存模拟（对应力扣146题LRU缓存与洛谷P9754结构体对齐）。"
+        note: "T3 常考系统级工程模拟：目录树配额回滚、树上搜索、缓存模拟；洛谷 P9754 结构体 练习内存对齐，P1160 队列安排 练习链表模拟。"
       },
       {
         id: "csp-202112-3",
         diffLevel: 3,
         diffScore: 75,
         diffLabel: "Lv.3 普及/提高- 工程大模拟 (T3 / 困难)",
-        winterExam: true,
-        ccfCode: "202112-3 登机牌条码 (冬季场) / 202305-3 解压缩",
+        ccfCode: "202112-3 登机牌条码 / 202305-3 解压缩",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P7075 [CSP-S 2020] 儒略日",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 289. 生命游戏 (状态矩阵模拟)",
-        leetcodeUrl: "https://leetcode.cn/problems/game-of-life/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P7075",
+        luoguTitle2: "P1067 [NOIP 2009 普及组] 多项式输出",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1067",
         tags: ["编码解码模拟", "历法大模拟", "模块化编程"],
-        note: "如果能在考场上独立调出洛谷P7075《儒略日》或冬季场《登机牌条码》《JPEG解码》，你的CCF CSP第三题工程实现能力就已具备满分水准。"
+        note: "如果能在考场上独立调出洛谷 P7075 儒略日 或 P1067 多项式输出 这类边界繁多的模拟题，你的第三题工程实现能力就已具备满分水准。"
       },
 
       // ==================== LEVEL 4: 提高+ 图论、动态规划与树结构 (T4 / CSP-S T2-T3) ====================
@@ -1019,60 +780,56 @@ min_pq.pop();</code></pre>
         diffLevel: 4,
         diffScore: 80,
         diffLabel: "Lv.4 提高+ 图论与生成树 (T4 / 中等~困难)",
-        winterExam: true,
-        ccfCode: "201812-4 数据中心 (冬季场) / 201703-4 地铁修建 / 201412-4 最优灌溉 (冬季场)",
+        ccfCode: "201812-4 数据中心 / 201703-4 地铁修建 / 201412-4 最优灌溉",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P14362 [CSP-S 2025] 道路修复",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 1584. 连接所有点的最小费用 (Medium - MST模板)",
-        leetcodeUrl: "https://leetcode.cn/problems/min-cost-to-connect-all-points/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P14362",
+        luoguTitle2: "P3366 【模板】最小生成树",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P3366",
         tags: ["最小生成树 Kruskal", "并查集", "瓶颈生成树"],
-        note: "【T4最稳拿分题型】2014年12月与2018年12月两次冬季场T4均为直接的 Kruskal 最小生成树模板题！熟练掌握并查集+边权排序即可直接拿满100分。"
+        note: "【T4最稳拿分题型】数据中心、地铁修建、最优灌溉都是直接的 Kruskal 最小生成树模板题；洛谷 P14362 道路修复 与 P3366 最小生成树 为同一模板。"
       },
       {
         id: "csp-201712-4",
         diffLevel: 4,
         diffScore: 83,
         diffLabel: "Lv.4 提高+ 最短路与分层图 (T4 / 困难)",
-        winterExam: true,
-        ccfCode: "201712-4 行车路线 (冬季场) / 201609-4 交通规划",
+        ccfCode: "201712-4 行车路线 / 201609-4 交通规划",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P9751 [CSP-J 2023] 旅游巴士 / P5663 加工零件",
         luoguUrl: "https://www.luogu.com.cn/problem/P9751",
-        leetcodeTitle: "LeetCode 743. 网络延迟时间 / 1334. 阈值距离内邻居最少的城市",
-        leetcodeUrl: "https://leetcode.cn/problems/network-delay-time/",
+        luoguTitle2: "P4779 【模板】单源最短路径（标准版）",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P4779",
         tags: ["Dijkstra 最短路", "分层图最短路", "同余最短路"],
-        note: "2017年12月冬季场T4《行车路线》考察大道与小道疲劳度状态下的分层图 Dijkstra，与洛谷P9751《旅游巴士》（模 k 同余最短路）及力扣743题一脉相承。"
+        note: "201712-4 行车路线考察大道与小道疲劳度状态下的分层图 Dijkstra；洛谷 P9751 旅游巴士（模 k 同余最短路）与 P4779 单源最短路一脉相承。"
       },
       {
         id: "csp-202104-4",
         diffLevel: 4,
         diffScore: 86,
         diffLabel: "Lv.4 提高+ 动态规划 (T4 / 困难)",
-        winterExam: false,
-        ccfCode: "202104-4 校门外的树 / 202406-4 货物调度 / 201612-4 压缩编码 (冬季场)",
+        ccfCode: "202104-4 校门外的树 / 202406-4 货物调度 / 201612-4 压缩编码",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P5662 [CSP-J 2019] 纪念品 / P11233 [CSP-S 2024] 染色",
         luoguUrl: "https://www.luogu.com.cn/problem/P5662",
-        leetcodeTitle: "LeetCode 312. 戳气球 (Hard - 区间DP经典)",
-        leetcodeUrl: "https://leetcode.cn/problems/burst-balloons/",
+        luoguTitle2: "P1880 [NOI 1995] 石子合并",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1880",
         tags: ["区间DP", "完全背包", "约数容斥DP"],
-        note: "2016年12月冬季场T4《压缩编码》是经典的石子合并区间DP（对应力扣312题）；202406-4考察背包DP，洛谷P11233《染色》考察线性DP优化。"
+        note: "201612-4 压缩编码是经典的区间 DP，202406-4 考察背包 DP；洛谷 P5662 纪念品（完全背包）与 P1880 石子合并（区间 DP）正好对应。"
       },
       {
         id: "csp-201703-5",
         diffLevel: 4,
         diffScore: 89,
         diffLabel: "Lv.4 提高+ 搜索与区间贪心 (T4~T5 / 困难)",
-        winterExam: false,
         ccfCode: "201703-5 引水入城 / 202009-3 点亮数字人生",
         ccfUrl: "https://blog.csdn.net/m0_53641110/article/details/127044090",
         luoguTitle: "P1514 [NOIP 提高组] 引水入城 (100%同名原题)",
         luoguUrl: "https://www.luogu.com.cn/problem/P1514",
-        leetcodeTitle: "LeetCode 452. 用最少数量的箭引爆气球 (区间贪心)",
-        leetcodeUrl: "https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/",
+        luoguTitle2: "P1223 排队接水",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1223",
         tags: ["记忆化搜索", "BFS连通性", "区间覆盖DP"],
-        note: "201703-5《引水入城》直接源自洛谷P1514同名原题！先用 BFS 判断是否可达，再转化为最少的线段覆盖整個区间。"
+        note: "201703-5 引水入城 直接源自洛谷 P1514 同名原题：先用 BFS 判断可达性，再转化为最少的线段覆盖整个区间；P1223 排队接水 练习基础贪心。"
       },
 
       // ==================== LEVEL 5: 省选/NOI- 高级数据结构与复合算法 (T4难题 & T5) ====================
@@ -1081,30 +838,28 @@ min_pq.pop();</code></pre>
         diffLevel: 5,
         diffScore: 93,
         diffLabel: "Lv.5 省选/NOI- 高级数据结构 (T4~T5 / 极难)",
-        winterExam: true,
-        ccfCode: "202012-5 星际旅行 (冬季场) / 202112-4 磁盘文件操作 (冬季场) / 202303-4 星际网络II",
+        ccfCode: "202012-5 星际旅行 / 202112-4 磁盘文件操作 / 202303-4 星际网络II",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P8818 [CSP-S 2022] 策略游戏",
-        luoguUrl: "https://www.luogu.com.cn/problem/list?tag=342",
-        leetcodeTitle: "LeetCode 307. 区域和检索 - 数组可修改 (线段树/树状数组基础)",
-        leetcodeUrl: "https://leetcode.cn/problems/range-sum-query-mutable/",
+        luoguUrl: "https://www.luogu.com.cn/problem/P8818",
+        luoguTitle2: "P3372 【模板】线段树 1",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P3372",
         tags: ["线段树懒标记", "离散化", "ST表/RMQ"],
-        note: "冬季场T4/T5高频考察线段树区间修改与询问（201912-5魔数、202012-5星际旅行、202112-4磁盘文件操作、202312-4宝藏）。考场建议先写暴力拿30~50分，再写线段树。"
+        note: "T4/T5 高频考察线段树区间修改与询问（星际旅行、磁盘文件操作、星际网络II、宝藏）。考场建议先写暴力拿 30~50 分，再写线段树。"
       },
       {
         id: "csp-202312-5",
         diffLevel: 5,
         diffScore: 97,
         diffLabel: "Lv.5 省选/NOI- 压轴挑战 (T5 / 极难)",
-        winterExam: true,
-        ccfCode: "202312-5 彩色路径 (冬季场) / 202012-4 食材运输 (冬季场) / 202305-5 闪耀巡航",
+        ccfCode: "202312-5 彩色路径 / 202012-4 食材运输 / 202305-5 闪耀巡航",
         ccfUrl: "https://blog.csdn.net/qq_45123552/article/details/135997410",
         luoguTitle: "P9755 [CSP-S 2023] 种树 / P17831 [CSP-S 2026] 能量水晶",
         luoguUrl: "https://www.luogu.com.cn/problem/P17831",
-        leetcodeTitle: "LeetCode 770. 基本计算器 IV / 3102. 最小化曼哈顿距离",
-        leetcodeUrl: "https://leetcode.cn/problems/minimize-manhattan-distances/solution/tu-jie-man-ha-dun-ju-chi-heng-deng-shi-b-op84/",
+        luoguTitle2: "P1896 [SCOI 2005] 互不侵犯",
+        luoguUrl2: "https://www.luogu.com.cn/problem/P1896",
         tags: ["状态压缩DP", "折半搜索 Meet-in-the-middle", "树形DP+二分"],
-        note: "2023年12月冬季场T5《彩色路径》分档极清晰：写二维DP得20分，写状压DP得50分，结合折半搜索得100分。充分利用子任务分段拿分是冲400+的核心策略！"
+        note: "202312-5 彩色路径 分档极清晰：二维 DP 得 20 分，状压 DP 得 50 分，折半搜索得 100 分；洛谷 P9755 种树 与 P1896 互不侵犯 可练习状压与树形 DP。"
       }
     ];
 
@@ -1167,7 +922,6 @@ min_pq.pop();</code></pre>
 
     function renderProblems() {
       const query = document.getElementById("search-input").value.trim().toLowerCase();
-      const platform = document.getElementById("platform-filter").value;
       const diffFilter = document.getElementById("difficulty-filter").value;
       const sortMode = document.getElementById("sort-select").value;
 
@@ -1175,17 +929,8 @@ min_pq.pop();</code></pre>
         if (diffFilter !== "ALL" && String(item.diffLevel) !== diffFilter) {
           return false;
         }
-        if (platform === "WINTER" && !item.winterExam) {
-          return false;
-        }
-        if (platform === "LUOGU" && !item.luoguUrl) {
-          return false;
-        }
-        if (platform === "LEETCODE" && !item.leetcodeUrl) {
-          return false;
-        }
         if (query) {
-          const hay = `${item.ccfCode} ${item.luoguTitle} ${item.leetcodeTitle} ${item.tags.join(" ")} ${item.note}`.toLowerCase();
+          const hay = `${item.ccfCode} ${item.luoguTitle} ${item.luoguTitle2 || ""} ${item.tags.join(" ")} ${item.note}`.toLowerCase();
           if (!hay.includes(query)) return false;
         }
         return true;
@@ -1200,11 +945,6 @@ min_pq.pop();</code></pre>
           const aSolved = solvedSet.has(a.id) ? 1 : 0;
           const bSolved = solvedSet.has(b.id) ? 1 : 0;
           if (aSolved !== bSolved) return aSolved - bSolved;
-          return a.diffScore - b.diffScore;
-        } else if (sortMode === "WINTER_FIRST") {
-          const aWin = a.winterExam ? 0 : 1;
-          const bWin = b.winterExam ? 0 : 1;
-          if (aWin !== bWin) return aWin - bWin;
           return a.diffScore - b.diffScore;
         }
         return a.diffScore - b.diffScore;
@@ -1225,9 +965,6 @@ min_pq.pop();</code></pre>
       container.innerHTML = filtered.map((item, idx) => {
         const isSolved = solvedSet.has(item.id);
         const badgeClass = `badge-lvl-${item.diffLevel}`;
-        const winterBadge = item.winterExam
-          ? `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-sky-100 text-sky-800 border border-sky-200">❄️ 含12月冬季真题</span>`
-          : "";
 
         const tagsHtml = item.tags.map(t =>
           `<span class="px-2 py-0.5 rounded bg-slate-100 text-slate-600 text-xs font-medium">${t}</span>`
@@ -1250,7 +987,6 @@ min_pq.pop();</code></pre>
                     <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold ${badgeClass}">
                       ${item.diffLabel} · 难度指数 ${item.diffScore}
                     </span>
-                    ${winterBadge}
                     ${tagsHtml}
                   </div>
 
@@ -1264,18 +1000,19 @@ min_pq.pop();</code></pre>
                 </div>
               </div>
 
-              <!-- Direct Action Links to Luogu and LeetCode -->
+              <!-- Direct Action Links to Luogu -->
               <div class="flex flex-col sm:flex-row lg:flex-col gap-2 min-w-[270px] lg:border-l lg:border-slate-100 lg:pl-4">
                 <a href="${item.luoguUrl}" target="_blank" rel="noopener noreferrer"
                    class="flex items-center justify-between px-3.5 py-2 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 text-xs font-semibold transition-colors">
                   <span class="truncate pr-2">🏔️ 洛谷：${item.luoguTitle}</span>
                   <span class="text-indigo-600 shrink-0">去刷题 ↗</span>
                 </a>
-                <a href="${item.leetcodeUrl}" target="_blank" rel="noopener noreferrer"
-                   class="flex items-center justify-between px-3.5 py-2 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-950 border border-amber-200 text-xs font-semibold transition-colors">
-                  <span class="truncate pr-2">⚡ 力扣：${item.leetcodeTitle}</span>
-                  <span class="text-amber-700 shrink-0">去刷题 ↗</span>
-                </a>
+                ${item.luoguUrl2 ? `
+                <a href="${item.luoguUrl2}" target="_blank" rel="noopener noreferrer"
+                   class="flex items-center justify-between px-3.5 py-2 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-200 text-xs font-semibold transition-colors">
+                  <span class="truncate pr-2">🏔️ 同类型：${item.luoguTitle2}</span>
+                  <span class="text-emerald-700 shrink-0">去刷题 ↗</span>
+                </a>` : ""}
               </div>
             </div>
           </div>
@@ -1291,7 +1028,6 @@ min_pq.pop();</code></pre>
       renderProblems();
 
       document.getElementById("search-input").addEventListener("input", renderProblems);
-      document.getElementById("platform-filter").addEventListener("change", renderProblems);
       document.getElementById("difficulty-filter").addEventListener("change", renderProblems);
       document.getElementById("sort-select").addEventListener("change", renderProblems);
 
@@ -1357,8 +1093,6 @@ min_pq.pop();</code></pre>
         tabStrategy.className = "px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all";
       });
 
-      const tabGithub = document.getElementById("tab-btn-github");
-      const viewGithub = document.getElementById("view-github");
       const tabCpp = document.getElementById("tab-btn-cpp");
       const viewCpp = document.getElementById("view-cpp");
       const btnJumpLv0 = document.getElementById("btn-jump-lv0");
@@ -1366,13 +1100,11 @@ min_pq.pop();</code></pre>
       function switchTab(target) {
         viewProblems.classList.add("hidden");
         viewStrategy.classList.add("hidden");
-        viewGithub.classList.add("hidden");
         viewCpp.classList.add("hidden");
 
         tabProblems.className = "px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all";
         tabCpp.className = "px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all flex items-center gap-1.5";
         tabStrategy.className = "px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all";
-        tabGithub.className = "px-4 py-2 rounded-lg text-sm font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all flex items-center gap-1.5";
 
         if (target === "problems") {
           viewProblems.classList.remove("hidden");
@@ -1383,16 +1115,12 @@ min_pq.pop();</code></pre>
         } else if (target === "strategy") {
           viewStrategy.classList.remove("hidden");
           tabStrategy.className = "px-4 py-2 rounded-lg text-sm font-medium bg-indigo-600 text-white shadow-sm transition-all";
-        } else if (target === "github") {
-          viewGithub.classList.remove("hidden");
-          tabGithub.className = "px-4 py-2 rounded-lg text-sm font-medium bg-indigo-600 text-white shadow-sm transition-all flex items-center gap-1.5";
         }
       }
 
       tabProblems.addEventListener("click", () => switchTab("problems"));
       tabCpp.addEventListener("click", () => switchTab("cpp"));
       tabStrategy.addEventListener("click", () => switchTab("strategy"));
-      tabGithub.addEventListener("click", () => switchTab("github"));
 
       btnJumpLv0.addEventListener("click", () => {
         document.getElementById("difficulty-filter").value = "0";
@@ -1400,77 +1128,11 @@ min_pq.pop();</code></pre>
         renderProblems();
       });
 
-      // GitHub URL generator
-      const inputGhUser = document.getElementById("input-gh-user");
-      const inputGhRepo = document.getElementById("input-gh-repo");
-      const displayGhUrl = document.getElementById("display-gh-url");
-      const linkDirectPreview = document.getElementById("link-direct-preview");
-      const snippetMarkdown = document.getElementById("snippet-markdown");
-      const btnCopyUrl = document.getElementById("btn-copy-url");
-      const btnCopyMd = document.getElementById("btn-copy-md");
-
-      function updateGhSnippet() {
-        const user = inputGhUser.value.trim() || "your-username";
-        const repo = inputGhRepo.value.trim() || "ccf-csp-winter";
-        const pageUrl = `https://${user}.github.io/${repo}/`;
-
-        displayGhUrl.textContent = pageUrl;
-        linkDirectPreview.href = pageUrl;
-        snippetMarkdown.value = `[![快速开始 CCF CSP 冬季刷题](https://img.shields.io/badge/CCF%20CSP-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E5%88%B7%E9%A2%98-4f46e5?style=for-the-badge&logo=github)](${pageUrl})
-
-> 🌐 **在线刷题题单**：[点击立即开始](${pageUrl})`;
-      }
-
-      inputGhUser.addEventListener("input", updateGhSnippet);
-      inputGhRepo.addEventListener("input", updateGhSnippet);
-      updateGhSnippet();
-
-      function copyToClipboard(text, triggerBtn, successText = "已复制!") {
-        const origText = triggerBtn.textContent;
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(text).then(() => {
-            triggerBtn.textContent = successText;
-            setTimeout(() => { triggerBtn.textContent = origText; }, 2000);
-          }).catch(() => {
-            fallbackCopy(text, triggerBtn, origText, successText);
-          });
-        } else {
-          fallbackCopy(text, triggerBtn, origText, successText);
-        }
-      }
-
-      function fallbackCopy(text, triggerBtn, origText, successText) {
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        ta.style.position = "fixed";
-        ta.style.opacity = "0";
-        document.body.appendChild(ta);
-        ta.select();
-        try {
-          document.execCommand("copy");
-          triggerBtn.textContent = successText;
-        } catch (err) {
-          triggerBtn.textContent = "复制失败，请手动选中复制";
-        }
-        document.body.removeChild(ta);
-        setTimeout(() => { triggerBtn.textContent = origText; }, 2000);
-      }
-
-      btnCopyUrl.addEventListener("click", () => {
-        copyToClipboard(displayGhUrl.textContent.trim(), btnCopyUrl);
-      });
-
-      btnCopyMd.addEventListener("click", () => {
-        copyToClipboard(snippetMarkdown.value, btnCopyMd);
-      });
-
       // Quick Start Modal Logic (finding the lowest unsolved difficulty problem)
       const modal = document.getElementById("quickstart-modal");
       const btnQuickNext = document.getElementById("btn-quick-next");
-      const btnOpenGhModal = document.getElementById("btn-open-github-modal");
       const btnCloseModal = document.getElementById("btn-close-modal");
       const btnModalToList = document.getElementById("btn-modal-to-list");
-      const btnModalToGh = document.getElementById("btn-modal-to-github");
       const modalContent = document.getElementById("modal-recommendation-content");
 
       function openNextProblemModal() {
@@ -1484,7 +1146,6 @@ min_pq.pop();</code></pre>
               <span class="px-2 py-0.5 rounded text-xs font-semibold badge-lvl-${nextProb.diffLevel}">
                 ${nextProb.diffLabel}
               </span>
-              ${nextProb.winterExam ? '<span class="text-xs text-sky-700 font-medium">❄️ 12月冬季真题</span>' : ''}
             </div>
             <div class="text-base font-bold text-slate-900">
               ${nextProb.ccfCode}
@@ -1498,8 +1159,8 @@ min_pq.pop();</code></pre>
               <span>🏔️ 洛谷：${nextProb.luoguTitle.split(" ")[0]}</span>
               <span>去刷题 ↗</span>
             </a>
-            <a href="${nextProb.leetcodeUrl}" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white text-xs font-semibold flex items-center justify-between transition-colors">
-              <span>⚡ 力扣：${nextProb.leetcodeTitle.split(" ")[1] || "原题训练"}</span>
+            <a href="${nextProb.luoguUrl2}" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold flex items-center justify-between transition-colors">
+              <span>🏔️ 同类型：${nextProb.luoguTitle2.split(" ")[0]}</span>
               <span>去刷题 ↗</span>
             </a>
           </div>
@@ -1508,7 +1169,6 @@ min_pq.pop();</code></pre>
       }
 
       btnQuickNext.addEventListener("click", openNextProblemModal);
-      btnOpenGhModal.addEventListener("click", () => switchTab("github"));
 
       btnCloseModal.addEventListener("click", () => {
         modal.classList.add("hidden");
@@ -1524,11 +1184,6 @@ min_pq.pop();</code></pre>
         modal.classList.add("hidden");
         switchTab("problems");
       });
-
-      btnModalToGh.addEventListener("click", () => {
-        modal.classList.add("hidden");
-        switchTab("github");
-      });
     });
   </script>
 
@@ -1538,7 +1193,7 @@ min_pq.pop();</code></pre>
       <div class="flex items-center justify-between pb-3 border-b border-slate-100">
         <div class="flex items-center gap-2">
           <span class="text-xl">⚡</span>
-          <h3 class="text-base font-bold text-slate-900">快速开始：继续你的冬季备考</h3>
+          <h3 class="text-base font-bold text-slate-900">快速开始：继续你的备考</h3>
         </div>
         <button id="btn-close-modal" type="button" class="text-slate-400 hover:text-slate-600 text-lg font-bold p-1">&times;</button>
       </div>
@@ -1547,12 +1202,9 @@ min_pq.pop();</code></pre>
         <!-- Dynamically filled with next problem info -->
       </div>
 
-      <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-3">
+      <div class="pt-3 border-t border-slate-100 flex items-center justify-end gap-3">
         <button id="btn-modal-to-list" type="button" class="px-4 py-2 rounded-lg text-xs font-medium bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors">
           查看完整题单
-        </button>
-        <button id="btn-modal-to-github" type="button" class="px-4 py-2 rounded-lg text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 text-white transition-colors">
-          查看 GitHub 部署教程 →
         </button>
       </div>
     </div>
